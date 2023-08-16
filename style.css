@@ -10,8 +10,34 @@ p{
 
 header{
     background: #EEEFF1;
+    display: flex;
+
+
 }
 
 body{
-    background: #656565;
+    background: #EEEFF1;
+}
+
+.header_logo{
+    cursor: pointer;
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 35px;
+    margin-left: 402px;
+}
+
+.header_menu{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    margin-left: 398px;
+    margin-top: 79px;
+}
+
+.header_menu a{
+    margin-left:  42px;
 }
