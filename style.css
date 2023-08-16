@@ -126,10 +126,164 @@ body{
 }
 
 .projects_wrapper{
+    display: flex;
     justify-content: center;
 }
 
-.project_block{
-    padding-bottom: 100px;
+.projects_block{
     padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projects_img{
+    width: 141px;
+}
+
+.skills{
+    background: white;
+}
+
+.skills_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.skills_img{
+    width: 555px;
+    margin-top: 102px;
+    margin-bottom: 101px;
+}
+
+.skills_left{
+    width: 445px;
+    margin-right: 150px;
+}
+
+.skills_title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 204px;
+    margin-bottom: 50px;
+}
+
+.skill{
+    color: #727272;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%; /* 26.25px */
+    padding-bottom: 24px;
+}
+
+.skill_1{
+    position: relative;
+}
+
+.skill_1::before{
+    background: #c4c4c4;
+    content: " ";
+    width: 445px;
+    height: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.skill_1::after{
+    background: #34547A;
+    content: " ";
+    width: 400px;
+    height: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.skill_2{
+    position: relative;
+}
+
+.skill_2::before{
+    background: #c4c4c4;
+    content: " ";
+    width: 445px;
+    height: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.skill_2::after{
+    background: #34547A;
+    content: " ";
+    width: 320px;
+    height: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.skill_3{
+    position: relative;
+}
+
+.skill_3::before{
+    background: #c4c4c4;
+    content: " ";
+    width: 445px;
+    height: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.skill_3::after{
+    background: #34547A;
+    content: " ";
+    width: 270px;
+    height: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.process_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.process_block{
+    width: 540px;
+    text-align: center;
+}
+
+.process_title{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+.process_text{
+    color: #727272;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%; /* 26.25px */
+   
 }
