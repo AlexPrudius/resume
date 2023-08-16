@@ -41,3 +41,95 @@ body{
 .header_menu a{
     margin-left:  42px;
 }
+
+.intro{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.intro_left{
+    padding-top: 50px;
+    width: 357px;   
+}
+
+.intro_right{
+    width: 540px;
+    height: 67px;    
+    margin-left: 130px;
+    margin-bottom: 271;
+}
+
+.intro_title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 164.063%; /* 78.75px */
+}
+
+.intro_text{
+    color: #727272;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%; /* 26.25px */
+}
+
+.about{
+    background: white;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.about_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.about_block{
+    text-align: center;
+    width: 540px;
+    
+}
+
+.about_title{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 119px;
+    margin-bottom: 50px;
+}
+
+.about_text{
+    color: #727272;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%; /* 26.25px */
+    margin-bottom: 100px;
+}
+
+.projects{
+    background: #34547A;
+}
+
+.projects_wrapper{
+    justify-content: center;
+}
+
+.project_block{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
