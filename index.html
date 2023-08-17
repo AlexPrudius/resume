@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="reset.css" type="text/CSS">
         <link rel="stylesheet" href="style.css" type="text/CSS">
         <title>Сайт - визитка</title>
         <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="header_logo">
-                <h1>WD</h1>
+            <div class="wrapper">
+                <div class="header_wrapper">
+                    <div class="header_logo">
+                        <h1>WD</h1>
+                    </div>
+                    <div class="header_menu">
+                        <a>ГЛАВНАЯ</a>
+                        <a>ОБ АВТОРЕ</a>
+                        <a>РАБОТЫ</a>
+                        <a>ПРОЦЕССЫ</a>
+                        <a>КОНТАКТЫ</a>
+                    </div>
+
+                </div>
             </div>
-            <div class="header_menu">
-                <a>ГЛАВНАЯ</a>
-                <a>ОБ АВТОРЕ</a>
-                <a>РАБОТЫ</a>
-                <a>ПРОЦЕССЫ</a>
-                <a>КОНТАКТЫ</a>
-            </div>
+            
         </header>
         
         <main>
@@ -92,10 +99,36 @@
                             </h1>
                             <p class="process_text">
                                 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                            </p>
+                            </p>   
                         </div>
+                        <video src="verstka.mp4" class="process_video" controls="controls"></video>
                     </div>
                 </div>
+            </section>
+
+            <section class="send">
+                <div class="wrapper">
+                    <div class="send_wrapper">
+                        <h1 class="send_title">
+                            Хотите веб-сайт?
+                        </h1>
+                        <p class="send_text">
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        </p>
+
+                        <form>
+                            <div class="send_form">
+                                <div>
+                                    <input type="text" class="formstyle form1"  placeholder="Ваше имя">
+                                    <input type="email" class="formstyle form2" placeholder="Ваш email">
+                                </div>
+                                <textarea placeholder="Сообщение" class="formstyle form3"></textarea>
+
+                                <input type="button" value="ОТПРАВИТЬ" class="form4">
+                            </div>
+                        </form>
+                    </div>
+                 </div>
             </section>
         </main> 
     </body>
