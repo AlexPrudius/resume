@@ -3,8 +3,10 @@
     <head>
         <link rel="stylesheet" href="reset.css" type="text/CSS">
         <link rel="stylesheet" href="style.css" type="text/CSS">
+        <link rel="stylesheet" href="lightzoom/style.css" type="text/CSS">
         <title>Сайт - визитка</title>
         <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -130,6 +132,49 @@
                     </div>
                  </div>
             </section>
+
+            <section class="gallery">
+                <div class="gallery_str">
+
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Picture 1" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Picture 2" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Picture 1" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Picture 2" class="gallery_img">
+                    </a>               
+                </div>
+                <div class="gallery_str">
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Picture 2" class="gallery_img">
+                    </a>  
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Picture 1" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Picture 2" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Picture 1" class="gallery_img">
+                    </a>
+                                     
+                </div>
+            </section>
         </main> 
+        <script src="jquery-3.7.0.min.js"></script>
+        <script src="lightzoom/lightzoom.js" ></script>
+        <script>
+            jQuery('.lightzoom').lightzoom({
+                isEscClosing: true,
+                isOverlayClickClosing: true,
+                viewTitle: true,
+                speed: 300,
+            });
+        </script>
     </body>
 </html> 
