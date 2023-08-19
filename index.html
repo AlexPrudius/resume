@@ -13,7 +13,7 @@
             <div class="wrapper">
                 <div class="header_wrapper">
                     <div class="header_logo">
-                        <h1>WD</h1>
+                        <h1 id="myLogo">WD</h1>
                     </div>
                     <div class="header_menu">
                         <a>ГЛАВНАЯ</a>
@@ -25,22 +25,21 @@
 
                 </div>
             </div>
-            
         </header>
         
         <main>
             <section class="intro">
                 <div class="intro_left">
                     <img src="intro_logo.svg" alt="Computer" class="intro_img">
-
                 </div>
                 <div class="intro_right">
-                    <h1 class="intro_title">
+                    <h1 class="intro_title" id="myTitle">
                         Дизайн и верстка
                     </h1>
                     <p class="intro_text">
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                     </p>
+                    <button class="intro_button" id="myButton"> НАПИСАТЬ МНЕ</button>
 
                 </div>
             </section>
@@ -167,6 +166,7 @@
             </section>
         </main> 
         <script src="jquery-3.7.0.min.js"></script>
+        <script src="script.js"></script>
         <script src="lightzoom/lightzoom.js" ></script>
         <script>
             jQuery('.lightzoom').lightzoom({
