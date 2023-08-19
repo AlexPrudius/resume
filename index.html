@@ -40,7 +40,28 @@
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                     </p>
                     <button class="intro_button" id="myButton"> НАПИСАТЬ МНЕ</button>
-
+                    <div class="modal" id="myModal">
+                        <div class="modal_content">
+                            <div class="close" id="myClose">&times;</div>
+                            <div class="send_wrapper">
+                                <h1 class="modal_title">
+                                    Хотите веб-сайт?
+                                </h1>
+        
+                                <form>
+                                    <div class="send_form">
+                                        <div>
+                                            <input type="text" class="formstyle form1"  placeholder="Ваше имя">
+                                            <input type="email" class="formstyle form2" placeholder="Ваш email">
+                                        </div>
+                                        <textarea placeholder="Сообщение" class="formstyle form3"></textarea>
+        
+                                        <input type="button" value="ОТПРАВИТЬ" class="modal_button">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -165,5 +186,16 @@
                 </div>
             </section>
         </main> 
+        <script src="jquery-3.7.0.min.js"></script>
+        <script src="script.js"></script>
+        <script src="lightzoom/lightzoom.js" ></script>
+        <script>
+            jQuery('.lightzoom').lightzoom({
+                isEscClosing: true,
+                isOverlayClickClosing: true,
+                viewTitle: true,
+                speed: 300,
+            });
+        </script>
     </body>
 </html> 

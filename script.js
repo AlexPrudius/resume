@@ -1,14 +1,15 @@
 var title = document.getElementById('myTitle');
 var button = document.getElementById('myButton');
 var myLogo = document.getElementById('myLogo');
-
+var modal = document.getElementById('myModal');
+var close = document.getElementById('myClose');
 
 button.onclick = function(){
-    title.style.color= 'red';
+    modal.style.display = "block";
 };
 
-title.onclick = function(){
-    title.style.color= 'black';
+close.onclick = function(){
+    modal.style.display = "none";
 };
 
 myLogo.onmouseenter = function(){
