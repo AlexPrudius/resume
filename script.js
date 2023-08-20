@@ -1,21 +1,23 @@
 var title = document.getElementById('myTitle');
 var button = document.getElementById('myButton');
-var myLogo = document.getElementById('myLogo');
 var modal = document.getElementById('myModal');
 var close = document.getElementById('myClose');
+var content = document.getElementById('myContent');
+
+function opacity1(){
+    content.style.opacity = "1";
+};
+function displayNone(){
+modal.style.display = "none";
+};
+
 
 button.onclick = function(){
     modal.style.display = "block";
+    setTimeout(opacity1, 1);
 };
 
 close.onclick = function(){
-    modal.style.display = "none";
-};
-
-myLogo.onmouseenter = function(){
-    myLogo.style.fontSize = '60px';
-};
-
-myLogo.onmouseleave = function(){
-    myLogo.style.fontSize = '';
+    content.style.opacity = "0";
+    setTimeout(displayNone, 1000);
 };

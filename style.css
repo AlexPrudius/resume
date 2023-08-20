@@ -27,12 +27,37 @@ body{
     background: #EEEFF1;
 }
 
+@keyframes updown{
+    0%{
+        top:0;
+    }
+    50%{
+        top: 50px;
+    }
+    100%{
+        top:0;
+    }
+}
+
 .header_logo{
     cursor: pointer;
     font-family: Revalia;
     font-style: normal;
     font-weight: normal;
     margin-top: 35px;
+    position: relative;
+}
+
+.header_logo::before{
+    content: "";
+    position: absolute;
+    top 0;
+    left: -17px;
+    height: 12px;
+    width: 12px;
+    background-color: #34547A;
+    border-radius: 7px;
+    animation: updown 1.5s infinite;
 }
 
 .header_menu{
@@ -102,8 +127,12 @@ body{
     letter-spacing: 1.6px;
     border: none;
     margin-top: 60px;
+    transition: 500ms;
+}
 
-    }
+.intro_button:hover{
+    border-radius: 50px;
+}
 
 .about{
     background: white;
@@ -432,6 +461,9 @@ body{
     margin: 7% auto;
     padding: 24px;
     background: #EEEFF1;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 2s;
 }
 
 .close{
@@ -470,3 +502,4 @@ body{
     margin-bottom: 40px;
     border: 0px;
 }
+
