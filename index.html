@@ -16,18 +16,18 @@
                         <h1 id="myLogo">WD</h1>
                     </div>
                     <div class="header_menu">
-                        <a>ГЛАВНАЯ</a>
-                        <a>ОБ АВТОРЕ</a>
-                        <a>РАБОТЫ</a>
-                        <a>ПРОЦЕССЫ</a>
-                        <a>КОНТАКТЫ</a>
+                        <a href="#intro" class="menu_item">ГЛАВНАЯ</a>
+                        <a href="#about" class="menu_item">ОБ АВТОРЕ</a>
+                        <a href="#projects" class="menu_item">РАБОТЫ</a>
+                        <a href="#process" class="menu_item">ПРОЦЕССЫ</a>
+                        <a href="#send" class="menu_item">КОНТАКТЫ</a>
                     </div>
                 </div>
             </div>
         </header>
         
         <main>
-            <section class="intro">
+            <section class="intro" id="intro">
                 <div class="intro_left">
                     <img src="intro_logo.svg" alt="Computer" class="intro_img">
                 </div>
@@ -64,7 +64,7 @@
                 </div>
             </section>
 
-            <section class="about">
+            <section class="about" id="about">
                 <div class="wrapper">
                     <div class="about_wrapper">
                         <div class="about_block">
@@ -80,7 +80,7 @@
                 </div>
             </section>
 
-            <section class="projects">
+            <section class="projects" id="projects">
                 <div class="wrapper">
                     <div class="projects_wrapper">
                         <div class="projects_block">
@@ -111,7 +111,7 @@
                 </div>
             </section>
 
-            <section class="process">
+            <section class="process" id="process">
                 <div class="wrapper">
                     <div class="process_wrapper">
                         <div class="process_block">
@@ -127,7 +127,7 @@
                 </div>
             </section>
 
-            <section class="send">
+            <section class="send" id="send">
                 <div class="wrapper">
                     <div class="send_wrapper">
                         <h1 class="send_title">
@@ -154,28 +154,27 @@
 
             <section class="gallery">
                 <div class="gallery_str">
-
                     <a href="gallery1.png" class="lightzoom">
                         <img src="gallery1.png" alt="Picture 1" class="gallery_img">
                     </a>
-                    <a href="gallery1.png" class="lightzoom">
+                    <a href="gallery2.png" class="lightzoom">
                         <img src="gallery2.png" alt="Picture 2" class="gallery_img">
                     </a>
                     <a href="gallery1.png" class="lightzoom">
                         <img src="gallery1.png" alt="Picture 1" class="gallery_img">
                     </a>
-                    <a href="gallery1.png" class="lightzoom">
+                    <a href="gallery2.png" class="lightzoom">
                         <img src="gallery2.png" alt="Picture 2" class="gallery_img">
                     </a>               
                 </div>
                 <div class="gallery_str">
-                    <a href="gallery1.png" class="lightzoom">
+                    <a href="gallery2.png" class="lightzoom">
                         <img src="gallery2.png" alt="Picture 2" class="gallery_img">
                     </a>  
                     <a href="gallery1.png" class="lightzoom">
                         <img src="gallery1.png" alt="Picture 1" class="gallery_img">
                     </a>
-                    <a href="gallery1.png" class="lightzoom">
+                    <a href="gallery2.png" class="lightzoom">
                         <img src="gallery2.png" alt="Picture 2" class="gallery_img">
                     </a>
                     <a href="gallery1.png" class="lightzoom">
@@ -185,6 +184,25 @@
                 </div>
             </section>
         </main> 
+
+        <footer>
+            <div class="wrapper">
+                <div class="footer_wrapper">
+                    <div class="left_footer">
+                        <h3 class="footer_title">
+                            Прудиус Александр
+                        </h3>
+                        <p class="footer_text">
+                            (c) 2023. Все права защищены.
+                        </p>
+                    </div>
+                    <div class="right_footer">
+                        <img src="vk-logo.png" alt="VK logo" class="footer_img">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
         <script src="jquery-3.7.0.min.js"></script>
         <script src="script.js"></script>
         <script src="lightzoom/lightzoom.js" ></script>
